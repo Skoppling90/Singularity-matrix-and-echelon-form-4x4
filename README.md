@@ -1,0 +1,2 @@
+# Singularity-matrix-and-echelon-form-4x4
+This code checks if a 4×4 matrix is singular or not. It determine if an inverse exists, before calculating it. The code wil try to convert a matrix to echelon form, and test if this fails by leaving zeros that can’t be removed on the leading diagonal. The code isSingular() checks if the the 4x4 matrix, A, is singular and returns true (singular) or false (not singular). To convert a matrix to echelon form you have to call Echelon()
